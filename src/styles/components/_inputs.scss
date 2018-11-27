@@ -1,0 +1,24 @@
+.text-input {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size: $font-size-large;
+    font-weight: 300;
+    margin-right: $xl-size;
+    padding: $s-size;
+}
+
+.select {
+    @extend .text-input;
+    background: none;
+}
+
+.text-input__email {
+    border: 1px solid #cacccd;
+    height: 50px;
+    font-size: $font-size-large;
+    font-weight: 300;
+    margin-right: $xl-size;
+    margin-bottom: $s-size;
+    padding: $s-size;
+    width: 220px;
+}

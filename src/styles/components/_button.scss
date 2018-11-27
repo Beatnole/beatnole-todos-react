@@ -1,0 +1,31 @@
+.button {
+    background: lighten(#013b0b, 10%);
+    border: none;
+    color: white;
+    display: inline-block;
+    font-size: $font-size-large;
+    font-weight: 300;
+    line-height: 1;
+    margin-left: $s-size;
+    padding: $s-size;
+    text-decoration: none;
+    text-align: center;
+    width: 14vw;
+}
+.button--link {
+    background: none;
+}
+
+.button--secondary {
+    background: none;
+    color: #888888;
+}
+
+.button-password-reset {
+    background: $dark-red;
+    margin-top: $s-size;
+}
+
+.button_adjust {
+    margin-top: $m-size;
+}
