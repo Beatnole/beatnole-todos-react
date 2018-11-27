@@ -1,8 +1,8 @@
 {
-  "name": "Todos-React",
+  "name": "todos_react",
   "version": "1.0.0",
   "main": "index.js",
-  "author": "Patrick O",
+  "author": "patrick_o",
   "license": "MIT",
   "scripts": {
     "build:dev": "webpack",
